@@ -1,0 +1,3 @@
+Red has the highest average foreground intensity across items.
+Predicted counts: A = 9, B = 7, C = 8.
+Across 18 measured items, weight and estimated defect fraction have Pearson r = 0.06.

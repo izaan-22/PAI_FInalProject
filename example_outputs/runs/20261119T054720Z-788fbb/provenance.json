@@ -1,0 +1,12 @@
+{
+  "training_manifest": "train.csv",
+  "inspection_manifest": "inspect.csv",
+  "image_size": 64,
+  "channel_gain": [
+    1,
+    1,
+    1
+  ],
+  "seed": 59,
+  "model": "SVC"
+}

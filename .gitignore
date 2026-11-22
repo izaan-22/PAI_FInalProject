@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+outputs/
+data/cache/
+data/kaggle/
+Fruits_Vegetables_Dataset(12000)/

@@ -1,0 +1,14 @@
+{
+  "image_size": 64,
+  "channel_gain": [1, 1, 1],
+  "training_csv": "data/kaggle/metadata.csv",
+  "inspection_csv": null,
+  "output_dir": "outputs/kaggle",
+  "exclude_conflicting_labels": true,
+  "seed": 59,
+  "latitude": 24.8607,
+  "longitude": 67.0011,
+  "market": "Karachi",
+  "commodity": "Potatoes",
+  "price_type": "Retail"
+}

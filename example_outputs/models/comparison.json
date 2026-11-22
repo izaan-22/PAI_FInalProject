@@ -1,0 +1,119 @@
+{
+  "train_rows": 115,
+  "holdout_rows": 29,
+  "labels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "models": {
+    "SVC": {
+      "training_cv_macro_f1": 0.9471855430309537,
+      "held_out": {
+        "A": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 10.0
+        },
+        "B": {
+          "precision": 1.0,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.875,
+          "support": 9.0
+        },
+        "C": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 10.0
+        },
+        "accuracy": 0.9310344827586207,
+        "macro avg": {
+          "precision": 0.9444444444444445,
+          "recall": 0.9259259259259259,
+          "f1-score": 0.9280303030303031,
+          "support": 29.0
+        },
+        "weighted avg": {
+          "precision": 0.942528735632184,
+          "recall": 0.9310344827586207,
+          "f1-score": 0.929858934169279,
+          "support": 29.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          2,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          10
+        ]
+      ]
+    },
+    "KNN": {
+      "training_cv_macro_f1": 0.8142903974020673,
+      "held_out": {
+        "A": {
+          "precision": 0.8888888888888888,
+          "recall": 0.8,
+          "f1-score": 0.8421052631578947,
+          "support": 10.0
+        },
+        "B": {
+          "precision": 0.7777777777777778,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.7777777777777778,
+          "support": 9.0
+        },
+        "C": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 10.0
+        },
+        "accuracy": 0.8620689655172413,
+        "macro avg": {
+          "precision": 0.8585858585858586,
+          "recall": 0.8592592592592593,
+          "f1-score": 0.8574213311055416,
+          "support": 29.0
+        },
+        "weighted avg": {
+          "precision": 0.8613723441309648,
+          "recall": 0.8620689655172413,
+          "f1-score": 0.8601676605306369,
+          "support": 29.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          8,
+          2,
+          0
+        ],
+        [
+          1,
+          7,
+          1
+        ],
+        [
+          0,
+          0,
+          10
+        ]
+      ]
+    }
+  },
+  "selected": "SVC",
+  "training_manifest": "train.csv"
+}

@@ -1,0 +1,15 @@
+{
+  "weather": {
+    "status": "unavailable",
+    "data": {}
+  },
+  "prices": {
+    "status": "unavailable",
+    "data": {}
+  },
+  "location": {
+    "latitude": 24.8607,
+    "longitude": 67.0011,
+    "price_type": "Retail"
+  }
+}
